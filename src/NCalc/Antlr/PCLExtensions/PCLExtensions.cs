@@ -1,5 +1,4 @@
-﻿#if !NET45
-using System;
+﻿using System;
 namespace System
 {
     public class SerializableAttribute : Attribute
@@ -50,4 +49,3 @@ namespace System.Runtime.Serialization
         }
     }
 }
-#endif
