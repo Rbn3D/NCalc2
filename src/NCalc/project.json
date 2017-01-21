@@ -12,11 +12,14 @@
     }
   },
   "frameworks": {
+    "net452": {},
     "netstandard1.3": {
       "dependencies": {
-        "NETStandard.Library": "1.6.0",
-        "System.Runtime.Serialization.Primitives": "4.1.1"
+        "NETStandard.Library": "1.6.0"
       }
     }
+  },
+  "dependencies": {
+    "System.Runtime.Serialization.Primitives": "4.3.0"
   }
 }
